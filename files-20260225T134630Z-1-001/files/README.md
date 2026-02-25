@@ -37,7 +37,7 @@ Nettoyer les fichiers objets :
 
 Bash
 make clean
-4. Scénario de Test et Résultats
+## 4. Scénario de Test et Résultats
 Le programme main exécute le flux suivant :
 
 Initialisation : Le client est créé à la position (5, 5).
@@ -46,7 +46,8 @@ Passage du Train : Le train visite le client, affiche sa position et le déplace
 
 Passage du Tram : Le tram visite le client à sa nouvelle position et le déplace finalement à (9, 8).
 
-5. Avantages démontrés
+## 5. Avantages démontrés
 Extensibilité : On peut ajouter un visiteur Bus sans modifier la logique de données de la classe client.
+
 
 Séparation des préoccupations : La classe client gère ses données, les visiteurs gèrent les algorithmes.
